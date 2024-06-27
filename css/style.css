@@ -98,3 +98,18 @@ button.btn.btn-primary:hover {
 .cadastro p.text a:hover {
     text-decoration: underline;
 }
+
+/* Ajuste de Responsivo */
+
+@media (max-width: 697px) {
+    .cadastro .formulario #formulario {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    h1.title {
+        font-size: 40px;
+    }
+
+}
